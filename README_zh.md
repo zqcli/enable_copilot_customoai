@@ -14,17 +14,21 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 
 ## 安装
 
+### 方法一：VS Code 界面安装
+
+1. 从 [Releases](../../releases) 下载 `.vsix` 文件
+2. 打开 VS Code → 按 `Ctrl+Shift+P` / `Cmd+Shift+P`
+3. 输入 `Extensions: Install from VSIX...` 并选择下载的文件
+4. 重启 VS Code
+
+<!-- 截图占位：添加 VS Code 命令面板中 "Install from VSIX" 的截图 -->
+<!-- ![Install from VSIX](docs/images/install-from-vsix.png) -->
+
+### 方法二：命令行安装
+
 1. 从 [Releases](../../releases) 下载 `.vsix` 文件
 2. 执行：`code --install-extension enable-copilot-customoai-0.0.1.vsix`
 3. 重启 VS Code
-
-或从源码构建：
-
-```bash
-npm install -g @vscode/vsce
-vsce package --no-dependencies --allow-missing-repository
-code --install-extension enable-copilot-customoai-0.0.1.vsix
-```
 
 ## 使用方法
 
