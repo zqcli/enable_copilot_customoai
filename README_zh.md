@@ -34,6 +34,9 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 1. 安装后重启 VS Code
 2. 打开 Copilot Chat → 点击模型选择器
 3. 选择 "OpenAI Compatible" 提供者
+
+![选择 OpenAI Compatible 提供者](docs/images/select-provider.png)
+
 4. 配置你的 API 端点和模型
 
 ![添加模型配置](docs/images/add-model.png)
