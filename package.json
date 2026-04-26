@@ -1,0 +1,13 @@
+{
+	"name": "enable-copilot-customoai",
+	"displayName": "Enable Copilot CustomOAI",
+	"description": "Enables the OpenAI Compatible (CustomOAI) model provider in VS Code Stable by setting the productQualityType context to insiders",
+	"version": "0.0.1",
+	"publisher": "local",
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"activationEvents": ["onStartupFinished"],
+	"main": "./extension.js",
+	"contributes": {}
+}
