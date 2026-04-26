@@ -21,8 +21,7 @@ That's it. One line of effective code.
 3. Type `Extensions: Install from VSIX...` and select it
 4. Restart VS Code
 
-<!-- Screenshot placeholder: Add a screenshot of the VS Code command palette showing "Install from VSIX" -->
-<!-- ![Install from VSIX](docs/images/install-from-vsix.png) -->
+![Install from VSIX](docs/images/install-from-vsix.png)
 
 ### Method 2: Command Line
 
@@ -36,6 +35,10 @@ That's it. One line of effective code.
 2. Open Copilot Chat → click the model picker
 3. Select "OpenAI Compatible" provider
 4. Configure your API endpoint and models
+
+![Add model configuration](docs/images/add-model.png)
+
+![Chat with custom model](docs/images/chat-with-model.png)
 
 ## How It Works
 

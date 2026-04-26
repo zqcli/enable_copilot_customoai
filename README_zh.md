@@ -21,8 +21,7 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 3. 输入 `Extensions: Install from VSIX...` 并选择下载的文件
 4. 重启 VS Code
 
-<!-- 截图占位：添加 VS Code 命令面板中 "Install from VSIX" 的截图 -->
-<!-- ![Install from VSIX](docs/images/install-from-vsix.png) -->
+![Install from VSIX](docs/images/install-from-vsix.png)
 
 ### 方法二：命令行安装
 
@@ -36,6 +35,10 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 2. 打开 Copilot Chat → 点击模型选择器
 3. 选择 "OpenAI Compatible" 提供者
 4. 配置你的 API 端点和模型
+
+![添加模型配置](docs/images/add-model.png)
+
+![使用自定义模型聊天](docs/images/chat-with-model.png)
 
 ## 工作原理
 
