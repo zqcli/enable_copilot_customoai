@@ -2,8 +2,12 @@
 	"name": "enable-copilot-customoai",
 	"displayName": "Enable Copilot CustomOAI",
 	"description": "Enables the OpenAI Compatible (CustomOAI) model provider in VS Code Stable by setting the productQualityType context to insiders",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "local",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zqcli/enable_copilot_customoai"
+	},
 	"engines": {
 		"vscode": "^1.90.0"
 	},
