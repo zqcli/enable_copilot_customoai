@@ -34,6 +34,9 @@ That's it. One line of effective code.
 1. Restart VS Code after installation
 2. Open Copilot Chat → click the model picker
 3. Select "OpenAI Compatible" provider
+
+![Select OpenAI Compatible provider](docs/images/select-provider.png)
+
 4. Configure your API endpoint and models
 
 ![Add model configuration](docs/images/add-model.png)
