@@ -96,3 +96,7 @@ This extension modifies an internal VS Code context variable. It may break if Mi
 ## License
 
 MIT
+
+## Acknowledgments
+
+Thanks to the [LINUX DO](https://linux.do/) community for their support and promotion.

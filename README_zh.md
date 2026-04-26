@@ -96,3 +96,7 @@ URL 填写规则：
 ## 许可证
 
 MIT
+
+## 鸣谢
+
+感谢 [LINUX DO](https://linux.do/) 社区的支持与推广。
