@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-一个极简 VS Code 扩展，在 VS Code 稳定版中解锁 **OpenAI Compatible (CustomOAI)** 模型提供者。
+一个极简 VS Code 扩展，在 VS Code 稳定版中为 **GitHub Copilot Chat** 解锁 **OpenAI Compatible (CustomOAI)** 模型提供者。
 
 ## 前置条件
 

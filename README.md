@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-A minimal VS Code extension that unlocks the **OpenAI Compatible (CustomOAI)** model provider in VS Code Stable.
+A minimal VS Code extension that unlocks the **OpenAI Compatible (CustomOAI)** model provider within **GitHub Copilot Chat** on VS Code Stable.
 
 ## Prerequisites
 
