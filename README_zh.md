@@ -4,6 +4,10 @@
 
 一个极简 VS Code 扩展，在 VS Code 稳定版中解锁 **OpenAI Compatible (CustomOAI)** 模型提供者。
 
+## 前置条件
+
+- 必须已安装 **[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)** 扩展。本扩展仅解锁 Copilot Chat 中隐藏的提供者，无法独立使用。
+
 ## 它做了什么
 
 VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 OpenAI 兼容的 API（如本地推理服务、第三方 LLM 提供商）。但该提供者被 `productQualityType != 'stable'` 条件限制，只在 VS Code Insiders 中可见。
@@ -21,7 +25,7 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 3. 输入 `Extensions: Install from VSIX...` 并选择下载的文件
 4. 重启 VS Code
 
-![Install from VSIX](docs/images/install-from-vsix.png)
+<img src="docs/images/install-from-vsix.png" width="500">
 
 ### 方法二：命令行安装
 
@@ -35,13 +39,13 @@ VS Code Copilot Chat 内置了一个 "CustomOAI" 提供者，可以连接任何 
 2. 打开 Copilot Chat → 点击模型选择器
 3. 选择 "OpenAI Compatible" 提供者
 
-![选择 OpenAI Compatible 提供者](docs/images/select-provider.png)
+<img src="docs/images/select-provider.png" width="500">
 
 4. 配置你的 API 端点和模型
 
-![添加模型配置](docs/images/add-model.png)
+<img src="docs/images/add-model.png" width="800">
 
-![使用自定义模型聊天](docs/images/chat-with-model.png)
+<img src="docs/images/chat-with-model.png" width="300">
 
 ## 工作原理
 

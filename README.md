@@ -4,6 +4,10 @@
 
 A minimal VS Code extension that unlocks the **OpenAI Compatible (CustomOAI)** model provider in VS Code Stable.
 
+## Prerequisites
+
+- **[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)** extension must be installed. This extension only unlocks a hidden provider within Copilot Chat — it does not work standalone.
+
 ## What It Does
 
 VS Code Copilot Chat includes a "CustomOAI" provider that lets you connect any OpenAI-compatible API (e.g., local inference servers, third-party LLM providers). However, this provider is gated behind `productQualityType != 'stable'`, meaning it only appears in VS Code Insiders.
@@ -21,7 +25,7 @@ That's it. One line of effective code.
 3. Type `Extensions: Install from VSIX...` and select it
 4. Restart VS Code
 
-![Install from VSIX](docs/images/install-from-vsix.png)
+<img src="docs/images/install-from-vsix.png" width="500">
 
 ### Method 2: Command Line
 
@@ -35,13 +39,13 @@ That's it. One line of effective code.
 2. Open Copilot Chat → click the model picker
 3. Select "OpenAI Compatible" provider
 
-![Select OpenAI Compatible provider](docs/images/select-provider.png)
+<img src="docs/images/select-provider.png" width="500">
 
 4. Configure your API endpoint and models
 
-![Add model configuration](docs/images/add-model.png)
+<img src="docs/images/add-model.png" width="800">
 
-![Chat with custom model](docs/images/chat-with-model.png)
+<img src="docs/images/chat-with-model.png" width="300">
 
 ## How It Works
 
