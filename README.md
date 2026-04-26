@@ -14,17 +14,21 @@ That's it. One line of effective code.
 
 ## Installation
 
+### Method 1: VS Code UI
+
+1. Download the `.vsix` file from [Releases](../../releases)
+2. Open VS Code → press `Ctrl+Shift+P` / `Cmd+Shift+P`
+3. Type `Extensions: Install from VSIX...` and select it
+4. Restart VS Code
+
+<!-- Screenshot placeholder: Add a screenshot of the VS Code command palette showing "Install from VSIX" -->
+<!-- ![Install from VSIX](docs/images/install-from-vsix.png) -->
+
+### Method 2: Command Line
+
 1. Download the `.vsix` file from [Releases](../../releases)
 2. Run: `code --install-extension enable-copilot-customoai-0.0.1.vsix`
 3. Restart VS Code
-
-Or build from source:
-
-```bash
-npm install -g @vscode/vsce
-vsce package --no-dependencies --allow-missing-repository
-code --install-extension enable-copilot-customoai-0.0.1.vsix
-```
 
 ## Usage
 
